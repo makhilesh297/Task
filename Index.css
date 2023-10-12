@@ -1,0 +1,123 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body{
+    background: #2f1893;
+    color: #fff;
+    font-family: "OpenSans", sans-serif ;
+}
+
+.nvabar{
+    width: 90%;
+    margin: 30px 5% 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.nav-logo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-logo span{
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(117, 117, 212);
+}
+.nav-links{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav-links a:active{
+color: #e93a7d;
+}
+.nav-links a:hover{
+    color:greenyellow;
+}
+
+.home{
+width: 90%;
+margin: 40px 5%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.home-left,
+.home-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.home-left{
+    margin-left:10% ;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.home-left h1{
+    font-size: 46px;
+    width: 50%;
+    
+}
+.home p{
+    width: 70%;
+    width: 50%;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 25px;
+
+}
+.btn{
+    padding: 10px;
+    background: #e93a7d;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+}
+.home .btn{
+    width: 100px;
+}
+
+.home-right .form-div{
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: white;
+    color: #2f1893;
+    border-radius: 5px;
+}
+form-div h1{
+    font-size: 28px;
+    /* background: #fff; */
+}
+.txt-in{
+    width: 60%;
+    margin: 10px 20%;
+    padding: 10px 20px;
+    border: 1px solid #2f1893;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-right .btn1{
+    width: 60%;
+    margin: 10px 20%;
+    background-color: rgb(72,43,231);
+}
+.home-right .btn2{
+    width: 60%;
+    margin: 10px 20%;
+    background-color: rgb(29,161,242);
+}
