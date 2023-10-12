@@ -121,3 +121,30 @@ form-div h1{
     margin: 10px 20%;
     background-color: rgb(29,161,242);
 }
+
+@media (max-width: 480px) {
+    .home{
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    .home-left h1{
+        font-size: 34px;
+        width: 100%;
+        
+    }
+    .home-left p{
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .home-left .btn{
+        margin-bottom: 30px;
+    }
+    .home-left,
+.home-right{
+    width: 100%;
+    margin-bottom: 15px ;
+}
+ 
+}
